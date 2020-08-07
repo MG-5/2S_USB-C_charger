@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BQ25886
+D BQ25886 Standalone 2-Cell, 2-A Boost-Mode Battery Charger With PowerPath, USB BC1.2 Detection, and USB On-The-Go Boost (OTG)
+F https://www.ti.com/lit/ds/symlink/bq25886.pdf
+$ENDCMP
+#
+#End Doc Library
