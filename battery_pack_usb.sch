@@ -232,7 +232,7 @@ U 1 1 5F2F5458
 P 4350 3600
 F 0 "SW1" H 4350 3550 50  0000 C CNN
 F 1 "SW_SPST" H 4350 3450 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4350 3600 50  0001 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical" H 4350 3600 50  0001 C CNN
 F 3 "~" H 4350 3600 50  0001 C CNN
 	1    4350 3600
 	1    0    0    -1  
@@ -320,7 +320,7 @@ U 1 1 5F3105C0
 P 7050 3900
 F 0 "TH1" H 7100 4050 50  0000 L CNN
 F 1 "103AT" V 7200 3750 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7050 3950 50  0001 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical" H 7050 3950 50  0001 C CNN
 F 3 "~" H 7050 3950 50  0001 C CNN
 	1    7050 3900
 	1    0    0    -1  
@@ -358,28 +358,6 @@ F 3 "" H 6550 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Battery_Cell BT1
-U 1 1 5F329931
-P 7350 3600
-F 0 "BT1" H 7468 3696 50  0000 L CNN
-F 1 "Battery_Cell" H 7468 3605 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" V 7350 3660 50  0001 C CNN
-F 3 "~" V 7350 3660 50  0001 C CNN
-	1    7350 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Battery_Cell BT2
-U 1 1 5F329C9A
-P 7350 4000
-F 0 "BT2" H 7468 4096 50  0000 L CNN
-F 1 "Battery_Cell" H 7468 4005 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" V 7350 4060 50  0001 C CNN
-F 3 "~" V 7350 4060 50  0001 C CNN
-	1    7350 4000
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR010
 U 1 1 5F32A858
 P 7350 4150
@@ -391,10 +369,6 @@ F 3 "" H 7350 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7350 4150 7350 4100
-Wire Wire Line
-	7350 3800 7350 3700
-Wire Wire Line
 	6350 3700 6350 3600
 Wire Wire Line
 	6100 3500 6450 3500
@@ -402,8 +376,6 @@ Wire Wire Line
 	6450 3500 6450 3300
 Wire Wire Line
 	6450 3300 7100 3300
-Wire Wire Line
-	7350 3300 7350 3400
 $Comp
 L Device:C C6
 U 1 1 5F340E69
@@ -511,23 +483,23 @@ REGN
 $Comp
 L Device:LED D2
 U 1 1 5F35D60D
-P 6350 2450
-F 0 "D2" H 6250 2450 50  0000 C CNN
-F 1 "LED" H 6500 2400 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6350 2450 50  0001 C CNN
-F 3 "~" H 6350 2450 50  0001 C CNN
-	1    6350 2450
+P 6350 2100
+F 0 "D2" H 6250 2100 50  0000 C CNN
+F 1 "LED" H 6500 2050 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6350 2100 50  0001 C CNN
+F 3 "~" H 6350 2100 50  0001 C CNN
+	1    6350 2100
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:LED D1
 U 1 1 5F35E5EE
-P 6150 2450
-F 0 "D1" H 6050 2450 50  0000 C CNN
-F 1 "LED" H 6300 2400 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6150 2450 50  0001 C CNN
-F 3 "~" H 6150 2450 50  0001 C CNN
-	1    6150 2450
+P 6150 2100
+F 0 "D1" H 6050 2100 50  0000 C CNN
+F 1 "LED" H 6300 2050 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6150 2100 50  0001 C CNN
+F 3 "~" H 6150 2100 50  0001 C CNN
+	1    6150 2100
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -541,23 +513,23 @@ Wire Wire Line
 $Comp
 L Device:R R1
 U 1 1 5F368F5A
-P 6150 2100
-F 0 "R1" H 6220 2146 50  0000 L CNN
-F 1 "R" H 6220 2055 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6080 2100 50  0001 C CNN
-F 3 "~" H 6150 2100 50  0001 C CNN
-	1    6150 2100
+P 6150 2450
+F 0 "R1" H 6220 2496 50  0000 L CNN
+F 1 "R" H 6220 2405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6080 2450 50  0001 C CNN
+F 3 "~" H 6150 2450 50  0001 C CNN
+	1    6150 2450
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R2
 U 1 1 5F36928A
-P 6350 2100
-F 0 "R2" H 6420 2146 50  0000 L CNN
-F 1 "R" H 6420 2055 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6280 2100 50  0001 C CNN
-F 3 "~" H 6350 2100 50  0001 C CNN
-	1    6350 2100
+P 6350 2450
+F 0 "R2" H 6420 2496 50  0000 L CNN
+F 1 "R" H 6420 2405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6280 2450 50  0001 C CNN
+F 3 "~" H 6350 2450 50  0001 C CNN
+	1    6350 2450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -732,4 +704,23 @@ $EndComp
 Wire Wire Line
 	3850 2200 3850 2250
 Connection ~ 3850 2250
+$Comp
+L Device:Battery BT1
+U 1 1 5F3AAE8C
+P 7350 3750
+F 0 "BT1" H 7458 3796 50  0000 L CNN
+F 1 "Battery" H 7458 3705 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" V 7350 3810 50  0001 C CNN
+F 3 "~" V 7350 3810 50  0001 C CNN
+	1    7350 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 3950 7350 4150
+Wire Wire Line
+	7350 3300 7350 3550
+Text Label 3750 3400 0    50   ~ 0
+D+
+Text Label 3750 3200 0    50   ~ 0
+D-
 $EndSCHEMATC
