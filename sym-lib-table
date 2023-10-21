@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name extraSymbols)(type Legacy)(uri ${KIPRJMOD}/extraSymbols.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "extraSymbols")(type "KiCad")(uri "${KIPRJMOD}/extraSymbols.kicad_sym")(options "")(descr ""))
 )
