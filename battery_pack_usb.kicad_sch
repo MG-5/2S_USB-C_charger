@@ -1539,6 +1539,14 @@
     (uuid ff03afc8-584c-4046-9fb1-b916e1a5ddbc)
   )
 
+  (text_box "Note to USB-C Power Delivery:\n\nAdd a 5.1k resistor each to the CC lines to trigger the 5V from PD host"
+    (at 34.29 73.66 0) (size 24.13 16.51)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid a9f35295-4de4-4cd8-a9a3-50258186f4cc)
+  )
+
   (label "REGN" (at 171.45 91.44 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1018aa32-f54a-4ba8-a34f-4e1f14778722)
